@@ -36,7 +36,7 @@ export default defineConfig({
     port: 5173,                // Pastikan sama dengan yang kamu pakai di ngrok
     allowedHosts: 'all',       // IZINKAN semua host (termasuk semua URL ngrok)
      headers: {
-      'Content-Security-Policy': "script-src 'self' 'unsafe-eval';"
+      'Content-Security-Policy': "script-src 'self';"
     }
   },
 });
